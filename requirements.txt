@@ -1,0 +1,5 @@
+requests
+lxml
+colorama
+beautifulsoup4
+sanitize-filename
