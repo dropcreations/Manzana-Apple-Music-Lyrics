@@ -63,8 +63,8 @@ class AppleMusic(object):
         response = requests.get('https://music.apple.com/us/browse')
         if response.status_code != 200: raise Exception(response.text)
 
-        index_js = re.search('(?<=index\.)(.*?)(?=\.js")', response.text).group(1)
-        response = requests.get(f'https://music.apple.com/assets/index.{index_js}.js')
+        index_js = re.search('(?<=index)(.*?)(?=\.js")', response.text).group(1)
+        response = requests.get(f'https://music.apple.com/assets/index{index_js}.js')
         if response.status_code != 200: raise Exception(response.text)
 
         access_token = re.search('(?=eyJh)(.*?)(?=")', response.text).group(1)
