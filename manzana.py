@@ -30,8 +30,8 @@ def main():
     parser.add_argument(
         '-sp',
         '--sync-points',
-        choices=[2, 3],
-        default=3,
+        choices=["2", "3"],
+        default="3",
         help="Miliseconds point count in synced lyrics",
     )
     parser.add_argument(
