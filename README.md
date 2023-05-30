@@ -3,9 +3,9 @@
 A python script to fetch lyrics from apple music albums and songs.
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/logo-in-dark.png">
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/logo-in-light.png">
-<img alt="Apple Music" src="https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/logo-in-light.png">
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/manzana__dark.png">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/manzana__light.png">
+<img alt="Apple Music" src="https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/manzana__light.png">
 </picture>
 
 ## __How to use?__
