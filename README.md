@@ -1,16 +1,16 @@
-# __Manzana-Apple-Music-Lyrics__
+# __Manzana Apple Music Lyrics__
 
-A python script to fetch lyrics from apple music albums and songs.
+A python program to fetch lyrics from apple music albums and songs.
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/manzana__dark.png">
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/manzana__light.png">
-<img alt="Apple Music" src="https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/manzana__light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/manzana__dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/manzana__light.png">
+  <img alt="Apple Music" src="https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/manzana__light.png">
 </picture>
 
 ## __How to use?__
 
-First of all clone this project or download the project as a zip file and extract it to your pc.
+First of all clone this project or download the project as a zip file and extract it to your pc or see [releases](https://github.com/dropcreations/Manzana-Apple-Music-Lyrics/releases).
 
 ```
 git clone https://github.com/dropcreations/Manzana-Apple-Music-Lyrics.git && cd Manzana-Apple-Music-Lyrics
@@ -22,8 +22,23 @@ Install required modules for python (use `pip3` if `pip` doesn't work for you)
 pip install -r requirements.txt
 ```
 
-Get your Apple Music cookies from web browser and paste it in `./cookies` folder.<br>
-Doesn't matter if cookies in `.txt` or `.json` format, both are accepted.
+Get your Apple Music cookies from web browser and search for `media-user-token` and get it.
+
+|Domain|Include subdomains|Path|Secure|Expiry|Name|Value
+|---|---|---|---|---|---|---|
+|.apple.com|TRUE|/|FALSE|0|geo|##|
+|.apple.com|TRUE|/|TRUE|0|dslang|##-##|
+|.apple.com|TRUE|/|TRUE|0|site|###|
+|.apple.com|TRUE|/|TRUE|0|myacinfo|#####...|
+|.music.apple.com|TRUE|/|TRUE|1680758167|commerce-authorization-token|#####...|
+|.apple.com|TRUE|/|FALSE|1715317057|itspod|##|
+|.music.apple.com|TRUE|/|TRUE|1681361859|media-user-token|#####...|
+|.music.apple.com|TRUE|/|TRUE|1681361859|itre|#|
+|.music.apple.com|TRUE|/|TRUE|1681361859|pldfltcid|#####...|
+|.music.apple.com|TRUE|/|TRUE|1681361859|pltvcid|#####...|
+|.music.apple.com|TRUE|/|TRUE|1681361859|itua|##|
+
+Paste `media-user-token` when it asked for...
 
 open terminal and run below command (Use `py` or `python3` if `python` doesn't work for you)
 
@@ -31,25 +46,28 @@ open terminal and run below command (Use `py` or `python3` if `python` doesn't w
 python manzana.py [album or song url]
 ```
 
-When saving time synced lyrics, timestamps are in `00:00.000` format. If you want to get it in `00:00.00` format set `--sync-points` as `2` as below
+When saving time synced lyrics, timestamps are in `00:00.00` format. If you want to get it in `00:00.000` format use `--sync` or `-s` as below
 
 ```
-python manzana.py --sync-points 2 [album or song url]
+python manzana.py --s [album or song url]
 ```
 
 Get help using `-h` or `--help` command
 
 ```
-usage: manzana.py [-h] [-sp {2,3}] url
+usage: manzana.py [-h] [-v] [-s] [--no-txt] [--no-lrc] url
 
-Manzana: Apple Music lyrics downloader
+Manzana: Apple Music Lyrics
 
 positional arguments:
-  url                                URL from Apple Music for a album, song or music-video
+  url            Apple Music URL for an album or a song
 
 optional arguments:
-  -h, --help                         Show this help message and exit
-  -sp {2,3}, --sync-points {2,3}     Miliseconds point count in synced lyrics
+  -h, --help     show this help message and exit
+  -v, --version  show program's version number and exit
+  -s, --sync     Save timecode's in 00:00.000 format (three ms points)
+  --no-txt       Don't save lyrics as a .txt file
+  --no-lrc       Don't save time-synced lyrics as a .lrc file
 ```
 
 ## About me
