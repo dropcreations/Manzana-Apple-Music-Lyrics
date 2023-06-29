@@ -72,11 +72,34 @@ optional arguments:
 
 ## Manzana Pro
 
-You can create lyric videos using __Apple Music__ if you have an user subscription. What you just need to do is get `Manzana Pro` program and extract it to a specified folder using the installer add that folder to your system `PATH` variable. Make sure you have `ffmpeg` also in your `PATH`. You can also customize background image of the output video and frame-rate (FPS).
+You can create lyric videos using __Apple Music__, if you have an user subscription. What you just need to do is get `Manzana Pro` program and extract it to a specified folder using the installer and add that folder to your system `PATH` variable. Make sure you have `ffmpeg` also in your `PATH`. You can also customize background image of the output video and frame-rate (FPS).
 
-## Manzana Premium
+```
+usage: manzana [-h] [-v] [-b BACKGROUND] [-f FPS] url
 
-Coming soon...
+Manzana: Apple Music Lyric Videos
+
+positional arguments:
+  url                   Apple Music URL for an album or a song.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v, --version         show program's version number and exit
+  -b BACKGROUND, --background BACKGROUND
+                        Replace background image with your own image. Add image path.
+  -f FPS, --fps FPS     Set frame-rate of the output video. (default: 24fps, max: 60fps)
+```
+
+Progress preview of [__Ava Max - Hold Up (Wait a Minute)__](https://music.apple.com/lk/album/hold-up-wait-a-minute/1634875613?i=1634875618)
+
+![progress_preview](https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/console_preview.gif)
+
+- See output [here](https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/preview_pro.mp4)
+
+### How to get Manzana Pro?
+
+- You can get `Manzana Pro` for just __$49__.
+- Contact me via `dropcodestudio@gmail.com` for further infomation.
 
 ## About me
 
