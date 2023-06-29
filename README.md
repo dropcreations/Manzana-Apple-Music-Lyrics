@@ -96,6 +96,8 @@ Progress preview of [__Ava Max - Hold Up (Wait a Minute)__](https://music.apple.
 
 - See output [here](https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/preview_pro.mp4)
 
+![output_preview](https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/output_preview.gif)
+
 ### How to get Manzana Pro?
 
 - You can get `Manzana Pro` for just __$49__.
