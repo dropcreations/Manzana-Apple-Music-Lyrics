@@ -1,6 +1,6 @@
 # __Manzana Apple Music Lyrics__
 
-A python program to fetch lyrics from apple music albums and songs.
+A python program to fetch lyrics from apple music albums and songs and then generates lyrics videos from fetched time-synced lyrics. See [here](#manzana-pro)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/manzana__dark.png">
@@ -49,7 +49,7 @@ python manzana.py [album or song url]
 When saving time synced lyrics, timestamps are in `00:00.00` format. If you want to get it in `00:00.000` format use `--sync` or `-s` as below
 
 ```
-python manzana.py --s [album or song url]
+python manzana.py -s [album or song url]
 ```
 
 Get help using `-h` or `--help` command
@@ -69,6 +69,14 @@ optional arguments:
   --no-txt       Don't save lyrics as a .txt file
   --no-lrc       Don't save time-synced lyrics as a .lrc file
 ```
+
+## Manzana Pro
+
+You can create lyric videos using __Apple Music__ if you have an user subscription. What you just need to do is get `Manzana Pro` program and extract it to a specified folder using the installer add that folder to your system `PATH` variable. Make sure you have `ffmpeg` also in your `PATH`. You can also customize background image of the output video and frame-rate (FPS).
+
+## Manzana Premium
+
+Coming soon...
 
 ## About me
 
