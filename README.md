@@ -100,7 +100,7 @@ Progress preview of [__Ava Max - Hold Up (Wait a Minute)__](https://music.apple.
 
 ### How to get Manzana Pro?
 
-- You can get `Manzana Pro` for just __$49__.
+- You can get `Manzana Pro` for just __$19__.
 - Contact me via `dropcodestudio@gmail.com` for further infomation.
 
 ## About me
