@@ -103,6 +103,14 @@ Progress preview of [__Ava Max - Hold Up (Wait a Minute)__](https://music.apple.
 - You can get `Manzana Pro` for just __$19__.
 - Contact me via `dropcodestudio@gmail.com` for further infomation.
 
+## Manzana Premium
+
+___COMING SOON...___
+
+![output_preview](https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/output_preview_premium.gif)
+
+- See output [here](https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/preview_premium.mp4)
+
 ## About me
 
 Hi, I'm Dinitha. You might recognize me as GitHub's [dropcreations](https://github.com/dropcreations).
