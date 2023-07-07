@@ -110,6 +110,7 @@ ___COMING SOON...___
 ![output_preview](https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/output_preview_premium.gif)
 
 - See output [here](https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/preview_premium.mp4)
+- Also check out [this](https://www.youtube.com/@dropmusicstudio)
 
 ## About me
 
