@@ -34,7 +34,7 @@ def arguments(args):
 
         __dir = data.get("dir")
         if not os.path.exists(__dir):
-            os.makedirs(__dir)
+            os.makedirs(__sanitize(__dir))
 
         for track in data["tracks"]:
             __file = track.get("file")
