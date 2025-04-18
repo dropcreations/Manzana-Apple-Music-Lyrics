@@ -105,7 +105,8 @@ Progress preview of [__Ava Max - Hold Up (Wait a Minute)__](https://music.apple.
 
 ## Manzana Premium
 
-___COMING SOON...___
+- You can get `Manzana Premium (Word Sync)` for just __$300__.
+- Contact me via `dropcodestudio@gmail.com` for further infomation.
 
 ![output_preview](https://raw.githubusercontent.com/dropcreations/Manzana-Apple-Music-Lyrics/main/assets/output_preview_premium.gif)
 
